@@ -1,0 +1,6 @@
+what is me
+-> me is software product designed and developed by Microsoft for storing data in an organised way. 
+
+-> ms is also capable to manipulate data through mathematical functions
+
+-> ms is also usedto extract insights from data and represent the visualization using graphs and charts
