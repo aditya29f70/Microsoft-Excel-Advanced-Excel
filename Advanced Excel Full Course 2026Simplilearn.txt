@@ -4,3 +4,22 @@ what is me
 -> ms is also capable to manipulate data through mathematical functions
 
 -> ms is also usedto extract insights from data and represent the visualization using graphs and charts
+
+1. you have first 
+-> tool bar menu
+-> tool bar ribbons ( eg home)
+-> tool bar groups --> tool bar more options
+
+
+2. we have cell and address 
+3. at the bottom we have sheet tracker (you can use any number of sheet ) and sheet size
+
+
+## demo inventory in excel
+-> using mc to create a sheet for employees in a company 
+-> want to use new column or row use --> insert option present click on right of your mouse
+
+--> convert text column to lower case and upper case 
+-> use =Lower
+
+20:min
