@@ -28,14 +28,14 @@ what is me
 20:min
 
 # Day2
-##  if we want to add a row in the dataset : 
+## 1 if we want to add a row in the dataset : 
 -> same right click and click insert
 --> if you want to add multiple row just select that many row and click right + insert
 
 --> lly you can add a col --> always remember excel sheet add a new col of it's left side (lly right click + insert)
 
 
-## you have any money column and you want to add it's money sign (like $, rupee etc) so this work is easy if you have only 3-4 row but if you have multiple row you can go manually and add --> so there is multiple method to do it
+## 2 you have any money column and you want to add it's money sign (like $, rupee etc) so this work is easy if you have only 3-4 row but if you have multiple row you can go manually and add --> so there is multiple method to do it
 --> click on col number (A, B, C...) --> so entire col is selected or --> click anywhere in that col and ctrl+ space 
 
 --> lly if you want to select a row 1. directly click on it's row number (1, 2...)
@@ -48,7 +48,7 @@ or shift+ space
 --> now come to our question adding money symbol first select that col then go--> Power Pivot -> general --> currency -> choose your currency
 
 
-## now comparing two diff columns or multiple columns is important jobs when you working as data analytics
+## 3 now comparing two diff columns or multiple columns is important jobs when you working as data analytics
 -> now we have two col -> col1 and col2 and i want to compare both of them
 
 -> first way (simple) --> use build-in conditional formatting which comes excel by default -> only have to do that select all the data --> navigate to home -> go to styles -> conditional formatting -> Highlight cell Rule -> duplicate values --> after that you will get box where you have to choose what you want to see duplicate cells in both col or unique ;;or also can find unique value which is only present in col1 not in col 2
@@ -61,9 +61,10 @@ or shift+ space
 --> Third way to compare (using lookup fn) -> used simple vloopup fn to compare both of the cell
 `=VLOOKUP(one_col_value_want_to_compare, range_of_col_where_you_want_to_compare (then press F4 for log them),1 (bz you want data from col 1 , 0 (bz you want exact match so )
 --> here if the element get in col1 then it will be printed in result but else it will give error (also we can handle this error add IFERROR simply write not found)
+eg ; =VLOOKUP("*"&A1&"*", B:C, 2, FALSE)
 
 
-#### (eg sheet2)
+####  (eg sheet2)
 
 -->there might some condition where you compare with two col and compare there are not complete it may have some part of the it's compare thing so we want those will be true 
 -> so for that we will use VLOOKUP again but put while card thing with that compare cell data --> "*" --> "this means if there anythings when you comparing with first cell and other cell or anything extra rather than the actual cell please try to consider it
@@ -71,10 +72,10 @@ or shift+ space
 
 #### eg(sheet3)
 
-# How to convert Rows to Columns in execl
+# 2 How to convert Rows to Columns in execl
 --> first way select all the cells copy it first (ctrl+ c) --> you will see a paste option at the top left most side -> navigate to paste special --> you will see transpose option
 
-# second way --> go to the function bar --> write -> TRANSPOSE(SELECT_THE_ARRAY) ;; transpose it basically an array fn in execel
+# 3 second way --> go to the function bar --> write -> TRANSPOSE(SELECT_THE_ARRAY) ;; transpose it basically an array fn in execel
 
 
 # eg (sheet4)
