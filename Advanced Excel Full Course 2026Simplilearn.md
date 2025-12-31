@@ -61,14 +61,14 @@ or shift+ space
 --> Third way to compare (using lookup fn) -> used simple vloopup fn to compare both of the cell
 `=VLOOKUP(one_col_value_want_to_compare, range_of_col_where_you_want_to_compare (then press F4 for log them),1 (bz you want data from col 1 , 0 (bz you want exact match so )
 --> here if the element get in col1 then it will be printed in result but else it will give error (also we can handle this error add IFERROR simply write not found)
-eg ; =VLOOKUP("*"&A1&"*", B:C, 2, FALSE)
+
 
 
 ####  (eg sheet2)
 
 -->there might some condition where you compare with two col and compare there are not complete it may have some part of the it's compare thing so we want those will be true 
 -> so for that we will use VLOOKUP again but put while card thing with that compare cell data --> "*" --> "this means if there anythings when you comparing with first cell and other cell or anything extra rather than the actual cell please try to consider it
-
+eg ; =VLOOKUP("*"&A1&"*", B:C, 2, FALSE)
 
 #### eg(sheet3)
 
@@ -103,4 +103,64 @@ eg ; =VLOOKUP("*"&A1&"*", B:C, 2, FALSE)
 
 ### 40:00 min
 
+## 1. How to Freeze Rows in excel
+* (like you want to freeze header to you will refrense the data after scroll down)
 
+* also if i want to freeze a column data, when scrolling left to right
+
+* so for that you have to select a cell where above of that row and just left col will freeze for that you have to go -> <view> menu -> there is option (freeze panes);; so there is option we can freeze row only , column only or both
+
+
+## 2. we have a col where amount of money are there we want convert those into **Amount in words**
+
+* there is not any pre-define fn ;; but we can build such fn using excel bba and VBA
+
+so you can create a micro using developer option but developer option is not readly availble in microsoft excel;; to activate developer option go to -> <home> -> <option> menu at the last -> go to <custemize Ribbon> -> at the second drop-down menu you will see ; by default will not be checked ;; please click and make it checked 
+
+
+* now go to <developer option> -> go to <visual basic> -> go to <insert> to insert new micro -> <module> now new micro window is availble for you , now paste you can which you catched for number to word convert by VBA
+
+## 3. let you want to create one single cell for all the employees in you country ;; like there first name, last name and including there gmail id
+
+* so you can do it by **combine operation in excel**
+`=first_name_cell_pos &(emphsent sign) last_name_cell_position : email_cell_pos`
+* also want to give some spaces
+`=first_name_cell_pos &" "&(emphsent sign) last_name_cell_position &" "& email_cell_pos`
+
+## how to merge cells in excell
+* let we have sales data of john in january month
+* now we have sales data  same for john for three months 
+
+* now you want to merge these three months and write it down quater1
+* basically remove those three month header (or merge them) and put -> only Quarter 1
+
+`<home> -> go to aligment group and  select <merge and center>`
+
+* there is diff merge option first we used which was merge and center 
+
+* now if you have multiple row with diff cells and and each row has Review for each month and you want each row will merge and don't want to go each row on by one just select all and select option **merge across**
+
+## 3. (how to use date-time fn)
+
+* you can easly get today data using <today> fn press enter
+
+* but there is some problem with these kind of approch , is when ever you open this sheet again the day has been changed to that day date;; so that date always vary 
+
+* so that should not vary ;; there is another shortcut way to use date-time fn ;; a key ward short to add todays date -> `ctrl+ ;` ;; and this will not be chaged 
+
+* there might also you want to add time to spread sheet;; `ctrl+ shift + ;` so then you will have time
+
+* and these date and time will resame constant
+
+## 4. (date formats)
+* there might not be you date in date format so converting those text -> date type you just have to go `<data> -> text to column`
+
+* you may want to change format of date type so -> `select that col and -> right click ->  format cell option ;; also can change date format according to diff country there `
+
+* now if your client don't want date format they want only month so at same place and choose `custom -> select only month and year`
+
+## 5. (how to calculate **age**)
+
+* if you have date col , so using it how to calculate age --> using Datedif fn -> `=datedif(cell_where_date_is, today_fn, if_you_want_to_cal_age_in_term_of_days->"d" or if month_then->"m" or 'y')`
+
+1:1:0
