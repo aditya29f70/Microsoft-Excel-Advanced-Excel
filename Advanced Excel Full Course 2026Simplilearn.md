@@ -163,4 +163,31 @@ so you can create a micro using developer option but developer option is not rea
 
 * if you have date col , so using it how to calculate age --> using Datedif fn -> `=datedif(cell_where_date_is, today_fn, if_you_want_to_cal_age_in_term_of_days->"d" or if month_then->"m" or 'y')`
 
-1:1:0
+## How to calculate time difference in excel.
+* `right click go to -> <format-cell> -> check time format would be AM/PM in time section not in custom`
+
+* now for diff `= select_out_time -select_in_time`
+* and change this diff data format to 13/14/hours format
+
+
+## DAX(data analysis expression) in Excel 
+* DAX is excel stands as an abbreviation for data Analysis Expressions. It allows the user to perform slightly advanced and custom calculations upon various data type like character data, date and time , time intelligence functions.
+
+* in build fns are available
+
+* There is varity of functions like
+* * 1. DAX Table Valued fn
+* * 2. DAX Filter fn
+* * 3. DAX Aggregation fn
+* * 4. Time Intelligence fn
+* * 5. Date and Time fn
+* * 6. information fns
+* * 7. Logical fns
+* * 8. Math and Trig fns
+* * 9. Other fns
+* * 10. Parent and child fns
+* * 11. statistical Functions
+* * 12. Text functions
+
+## DAX Date and time fn in excel:
+* go to <data tool option> -> go to power pivot window -> you will enter in power pivot window -> there is option **Get External data** -> you can get data from diff resource -> we will go <from other souces> -> below <Import data from excel file> -> give path

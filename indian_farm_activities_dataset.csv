@@ -1,6 +1,18 @@
-Amount,Amount in words
-$10.2,ten point two
-$22.0,twenty two point zero
-$54.12,fifty four point one two
-$12.0,twelve point zero
-$110.00,one hundred ten point zero zero
+Id,Employee_name,Designation,Department,Salary,Date_of_birth,Join_date
+1,rr,Senior Manager,fdasdfas,1133,10-08-2001,20-12-2025
+2,ee,Content Writer,asdfas,2233,21-09-1888,23-08-2024
+3,ss,HR,asf,4455,24-09-1999,11-07-2025
+4,qq,Data Analytic,aasfd,6611,27-05-2001,15-05-2025
+5,ww,Data Scientist,asf,2211,11-08-2001,20-12-2025
+6,rr,erwe,dsf,3366,21-09-1889,23-08-2024
+7,tt,qwer,asf,7711,28-01-2003,11-07-2025
+8,yy,erqw,fdsagg,6611,30-09-2004,15-05-2025
+9,uu,werew,sdfg,5511,12-08-2001,20-12-2025
+10,ii,werq,afasfasd,5544,21-09-1890,23-08-2024
+11,oo,fafda,asfdasg,7713,03-06-2006,11-07-2025
+12,aa,asf,asfa,4513,04-02-2008,15-05-2025
+13,dd,gfds,asfasf,3245,13-08-2001,20-12-2025
+14,ff,sfasas,asf,5613,21-09-1891,23-08-2024
+15,gg,asdfas,asfdasg,4534,07-10-2009,11-07-2025
+16,hh,asfas,sadf,4567,10-06-2011,15-05-2025
+17,jj,sadfasdf,asfdasg,4513,14-08-2001,20-12-2025
